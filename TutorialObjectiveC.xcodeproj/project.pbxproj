@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		62B1AB4329B247260063E322 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B1AB4229B247260063E322 /* main.m */; };
+		62DE447829B77F7F007778EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DE447729B77F7F007778EE /* main.m */; };
+		62DE447B29B77FFE007778EE /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DE447A29B77FFE007778EE /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		62B1AB3F29B247260063E322 /* TutorialObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TutorialObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
-		62B1AB4229B247260063E322 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62DE447729B77F7F007778EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62DE447929B77FFE007778EE /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		62DE447A29B77FFE007778EE /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,8 @@
 		62B1AB3629B247260063E322 = {
 			isa = PBXGroup;
 			children = (
-				62B1AB4129B247260063E322 /* TutorialObjectiveC */,
+				62DE447729B77F7F007778EE /* main.m */,
+				62DE447629B77F5B007778EE /* Array */,
 				62B1AB4029B247260063E322 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +58,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		62B1AB4129B247260063E322 /* TutorialObjectiveC */ = {
+		62DE447629B77F5B007778EE /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				62B1AB4229B247260063E322 /* main.m */,
+				62DE447929B77FFE007778EE /* Student.h */,
+				62DE447A29B77FFE007778EE /* Student.m */,
 			);
-			path = TutorialObjectiveC;
+			path = Array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B1AB4329B247260063E322 /* main.m in Sources */,
+				62DE447829B77F7F007778EE /* main.m in Sources */,
+				62DE447B29B77FFE007778EE /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
